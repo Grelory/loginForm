@@ -1,0 +1,61 @@
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 2em;
+}
+
+div.content form.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.05em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 8.813em;
+    height: 12.66em;
+}
+
+div.content form.login h2, div.content form.login label {
+    font-size: 1em;
+    margin: 0.3em;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+div.content form.login hr {
+    margin: 0;
+    align-self: stretch;
+    border-style: solid;
+    border-color: #99ccff;
+    border-radius: 0.1em;
+    border-width: 0em 0em 0.3em 0em;
+}
+
+div.content form.login input {
+    align-self: stretch;
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.3em;
+    padding: 1em;
+    font-size: 0.5em;
+    background-color: white;
+}
+
+div.content form.login button, div.content button {
+    align-self: center;
+    width: 5em;
+    height: 2em;
+    background-color: #4da6ff;
+    color: white;
+    border-style: none;
+    border-radius: 0.3em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
